@@ -28,7 +28,7 @@ a:hover {
 
 .card {
   width: 400px;
-  height: 400px;
+  min-height: 400px;
   border: 2px solid grey;
   margin: 2%;
   padding: 2%;
@@ -40,4 +40,32 @@ a:hover {
   width: 200px;
   height: 200px;
   border-radius: 200px;
+}
+
+form {
+  width: 100%;
+}
+
+form > * {
+  margin: 2%;
+}
+
+input {
+  border: 1px solid grey;
+  font-size: 1.5rem;
+  width: 40%;
+}
+
+button {
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 1%;
+  border-radius: 15px;
+  background-color: lightslategray;
+  color: white;
+}
+
+button:hover {
+  color: blueviolet;
+  background-color: white;
 }
